@@ -2,6 +2,7 @@
 Comments and user interface in slovenian language (seminar work)
 
 QT/C++/OpenCV
+
 Documentation and concept of idea: [MIT research](http://people.csail.mit.edu/mrub/vidmag/)
 
 ##Documentation in Slovenian language:
