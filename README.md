@@ -5,12 +5,12 @@ QT/C++/OpenCV
 
 Documentation and concept of idea: [MIT research](http://people.csail.mit.edu/mrub/vidmag/)
 
-##Documentation in Slovenian language:
+## Documentation in Slovenian language:
 
-###UVOD
+### UVOD
 Veliko statičnih prizorov vsebuje nekakšne spremembe, ki so nevidni prostim očesom. Možno je z različnimi pristopi izvleči te majhne spremembe iz videoposnetka. Eden izmed načinov je tudi algoritem Eulerian motion magnification, ki so ga razvili na MIT. Začetki raziskovanja na tem področju segajo v leto 2005, dokumentacija pa je bila izdana leta 2012. 
 
-###ALGORITEM
+### ALGORITEM
 Algoritem deluje tako, da vzamemo vsako sliko iz posnetka in jo obdelamo po algoritmu.
 Imamo 7 korakov, kateri sliko spremenijo do te mere, da poudarimo gibanje. 
 
@@ -62,7 +62,7 @@ V šestem koraku le združimo originalno sliko in sliko ojačenega gibanja. To n
 
 V sedmem koraku pa pretvorimo rezultat iz LAB barvnega prostora nazaj v RGB.
 
-###VHODNI PARAMETRI
+### VHODNI PARAMETRI
 Kot smo že videli v algoritmu imamo določene parametre podane preden zaženemo algoritem. Rezultat obdelanega videa je zelo odvisen od podanih vrednostih vhodnih parametrov. 
 Alpha je faktor ojačanja. Večja kot je vrednost, več gibanja ojača.
 Lambda_c v literaturi poimenujejo tudi Cutoff Wavelength. V slovenščini bi rekli temu kritična valovna dolžina. Naloga tega parametra je, da zmanjšuje hitro gibanje (kako občutljivo je na hitro gibanje).  Deluje na spatial (prostorski) frekvenci. 
@@ -73,13 +73,13 @@ V algoritmu imamo tudi fiksno določene parametre.
 Exaggeration faktor ki poskrbi za boljšo vizualizacijo tako, da okrepi alfo nad mejo. 
 Leveli piramide oziroma število plasti piramide.
 
-###REZULTATI
+### REZULTATI
 Video odprem, zaženem algoritem in obdelan video shranim. Na posnetkih lahko vidimo razlike. Ugotovil sem, da je zelo odvisno od nastavljenih posnetkov in od same kvalitete posnetka. Prav tako določene stvari ni primerno ojačiti, saj dobimo zelo čuden rezultat.
 
-##Documentation in English language:
+## Documentation in English language:
 Coming soon with comments
 
-##License
+## License
 [MIT research](http://people.csail.mit.edu/mrub/vidmag/)
 
 [Pyramids-Slovenian](https://ucilnica.fri.uni-lj.si/pluginfile.php/3941/mod_resource/content/6/MS_manipulacijaSlik.pdf)
